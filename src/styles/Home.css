@@ -1,0 +1,17 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.product {
+  width: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.product img {
+  width: 100%;
+}
